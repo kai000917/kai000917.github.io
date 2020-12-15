@@ -85,9 +85,24 @@ body {
     color: #585858;
 }
 
-button.active {
-    background: #585858;
-    color: white;
+button.size1 {
+    background: white;
+    color: #585858;
+}
+
+button.size2 {
+    background: white;
+    color: #585858;
+}
+
+button.size3 {
+    background: white;
+    color: #585858;
+}
+
+button.size4 {
+    background: white;
+    color: #585858;
 }
 
 .purchase {
