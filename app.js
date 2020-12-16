@@ -15,9 +15,9 @@ const size4 = document.querySelector('button.size4');
 
 //Moving Animation Event
 container.addEventListener("mousemove", (e) => {
-    console.log(window.innerHeight / 2);
+    console.log((window.innerHeight / 2 - e.pageY) / 18);
     let xAxis = (window.innerWidth / 2 - e.pageX) / 11;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 18;
+    let yAxis = -((window.innerHeight / 2 - e.pageY) / 18);
     card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 })
 
